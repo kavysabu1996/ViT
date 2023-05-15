@@ -57,9 +57,17 @@ output : `cabbage butterfly`
 
 give image path as argument to load image of your choice
 ```
-python3 run.py --image samples/sample1.jpg
+python3 run.py --image sample.jpg
 ```
 give url as argument to load image from web
 ```
 python3 run.py --image image_url
 ```
+
+## References
+- [vit-keras]([https://github.com/Leonardo-Blanger/detr_tensorflow](https://github.com/faustomorales/vit-keras): reference repo
+- [Attention Is All You Need paper](https://arxiv.org/pdf/1706.03762.pdf)
+
+## Acknowledgement
+1. [Mr. Thomas Paul](https://github.com/mrtpk)
+2. [Mr. Sambhu Surya Mohan](https://github.com/sambhusuryamohan)

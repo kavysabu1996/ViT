@@ -15,22 +15,22 @@ virtual env creation - `Ubuntu`
 # in root directory
 sudo apt update
 sudo apt install python3-dev python3-pip python3-venv
-python3 -m venv detr
+python3 -m venv vit
 
-#this will create a folder named detr in root directory
+#this will create a folder named vit in root directory
 # activate this env by 
-source detr/bin/activate
+source vit/bin/activate
 ```
 
 virtual env creation - `Windows`
 ```
 # in root directory
 pip install virtualenv
-virtualenv detr
+virtualenv vit
 
-#this will create a folder named detr in root directory
+#this will create a folder named vit in root directory
 # activate this env by
-detr\Scripts\activate
+vit\Scripts\activate
 ```
 
 install all requirements
@@ -45,7 +45,7 @@ pip install opencv-python
 
 ### classification
 
-Repo's root directory contains default sample (`sample2.jpg`) for running classification. 
+Repo's root directory contains default sample (`sample.jpg`) for running classification. 
 
 For running object detection run this line of code
 

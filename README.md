@@ -65,7 +65,7 @@ python3 run.py --image image_url
 ```
 
 ## References
-- [vit-keras]([https://github.com/Leonardo-Blanger/detr_tensorflow](https://github.com/faustomorales/vit-keras): reference repo
+- [vit-keras](https://github.com/faustomorales/vit-keras): reference repo
 - [Attention Is All You Need paper](https://arxiv.org/pdf/1706.03762.pdf)
 
 ## Acknowledgement

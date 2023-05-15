@@ -43,13 +43,11 @@ pip install numpy
 pip install opencv-python
 ```
 
-### classification
+### perform classification
 
 Repo's root directory contains default sample (`sample.jpg`) for running classification. 
 
-For running object detection run this line of code
-
-load default sample
+load default sample as input
 ```
 python3 run.py
 ```

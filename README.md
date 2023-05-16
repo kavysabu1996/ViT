@@ -67,5 +67,5 @@ python3 run.py --image image_url
 - [Attention Is All You Need paper](https://arxiv.org/pdf/1706.03762.pdf)
 
 ## Acknowledgement
-1. [Mr. Thomas Paul](https://github.com/mrtpk)
-2. [Mr. Sambhu Surya Mohan](https://github.com/sambhusuryamohan)
+1. [Thomas Paul](https://github.com/mrtpk)
+2. [Sambhu Surya Mohan](https://github.com/sambhusuryamohan)

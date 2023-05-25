@@ -1,10 +1,10 @@
-# ViT
-
-Vision transformer aka ViT is just an extension of transformers to computer vision. Standard Transformer consists of encoder and decoder blocks. But here we use encoder part only.When compared to CNNs, ViT requires fewer computational resources to train. ViT first appeared in a paper called "An Image is worth 16x16 words: Transformers for image recognition at scale". This paper proved that reliance on CNN is not necessary. We can directly give images to standard transformer and it'll perform classification task better than CNNs did. But some preprocessing is required as standard transformer accepts input as word tokens. Similar to word token here we split image into patches.
+# ViT from scratch using single-head attention
 
 ## About this implementation
 
-For this project, I used a [git repo](https://github.com/faustomorales/vit-keras) which is implemented using TensorFlow as a reference. This reference repo and the original implementation, both used multi-head attention mechanism. But I chose single-head attention instead. Weights of the model are saved from reference repo, and the [forked version](https://github.com/kavysabu1996/vit-keras) contains code for the same.
+For this project, I used a [git repo](https://github.com/faustomorales/vit-keras) which is implemented using TensorFlow as a reference. Here I used singl-head attention. Weights of the model are saved from reference repo, and the [forked version](https://github.com/kavysabu1996/vit-keras) contains code for the same.
+
+Vision transformer aka ViT is just an extension of transformers to computer vision. Standard Transformer consists of encoder and decoder blocks. But here we use encoder part only.When compared to CNNs, ViT requires fewer computational resources to train. ViT first appeared in a paper called "An Image is worth 16x16 words: Transformers for image recognition at scale". This paper proved that reliance on CNN is not necessary. We can directly give images to standard transformer and it'll perform classification task better than CNNs did. But some preprocessing is required as standard transformer accepts input as word tokens. Similar to word token here we split image into patches.
 
 ## image classification using this repo
 

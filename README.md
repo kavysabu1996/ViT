@@ -1,4 +1,4 @@
-# ViT from scratch using single-head attention
+# ViT from scratch 
 
 ## About this implementation
 

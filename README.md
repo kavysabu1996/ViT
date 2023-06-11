@@ -1,4 +1,4 @@
-# ViT from scratch 
+# ViT (Vision Transformer) from scratch 
 
 ## About this implementation
 
